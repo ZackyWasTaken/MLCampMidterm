@@ -16,7 +16,7 @@ Lastly, after some data cleaning and EDA, we can finally look into training mode
 
 ## The models
 
-We'll train a logistic regression model, and then a decision tree model (unfortunately college made it so I had no time or energy for a boosted tree, which is what I was going for).
+We'll train a logistic regression model, a decision tree model, then a random forest model.
 
 We compare their accuracies and AUC ROC scores, then pick the best, extract it to a script, then host it in a docker container that has a light flask project.
 
