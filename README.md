@@ -2,13 +2,15 @@
 
 ## The idea behind the project
 
-Predicting whether students' cumulative GPAs (In a university in Cyprus) would allow them to keep their internship (>3.00) depending on their behavior, high school type and other variables that do not include grades. (hence the model's output will be binary, binary classification)
+In most universities and colleges, scholarship holders lose their scholarship if their cumulative GPA falls below 3.00. It is fairly easy to know if one will lose their scholarship depending on their grades, but what if we didn't have access to that info, and instead we predicted if one's GPA will be below 3.00 based on their personal details and behavior.  
+
+We'll be predicting whether students' cumulative GPAs (In a university in Cyprus) would allow them to keep their scholarship (As in they're greater than 3.00) depending on their behavior, high school type and other variables that do not include grades. Our problem is binary classification. We'll go through the data and try out a couple models
 
 ## The dataset
 
 Data can be downloaded easily from [Kaggle](https://www.kaggle.com/datasets/joebeachcapital/students-performance/data). Although, we'll be removing some features here because they're not helpful for our model's goal.
 
-The features to be removed are the 'GRADE' and 'Expected Cumulative grade point average in the graduation (/4.00)'. Additionally, since internships are kept if your cumulative GPA doesn't go lower than 3 in most universities, we'll transform 'Cumulative grade point average in the last semester (/4.00)' to a binary variable. 1 if it's greater than 3.00, 0 if not.
+The features to be removed are the 'GRADE' and 'Expected Cumulative grade point average in the graduation (/4.00)'. Additionally, since scholarships are kept if your cumulative GPA doesn't go lower than 3 in most universities, we'll transform 'Cumulative grade point average in the last semester (/4.00)' to a binary variable. 1 if it's greater than 3.00, 0 if not.
 
 Lastly, after some data cleaning and EDA, we can finally look into training models.
 
