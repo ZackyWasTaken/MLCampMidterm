@@ -1,5 +1,7 @@
 # ML midterm project for course
 
+This is the midterm project for [ML Zoomcamp 2023](https://github.com/DataTalksClub/machine-learning-zoomcamp). Thanks a lot Alexey Grigorev and the rest of the team and community for such a great opportunity!
+
 ## The idea behind the project
 
 In most universities and colleges, scholarship holders lose their scholarship if their cumulative GPA falls below 3.00. It is fairly easy to know if one will lose their scholarship depending on their grades, but what if we didn't have access to that info, and instead we predicted if one's GPA will be below 3.00 based on their personal details and behavior.  
@@ -47,6 +49,8 @@ At this point you can try running the test.py file and you'll get a return!
 ## Cloud
 
 We can host this container with Azure in what's called "Azure Container Instances". These can easily allow us to deploy a docker container and expose it to the internet so we can use it with a post request.
+
+Since Azure wasn't covered in the zoomcamp, I'll be going through things in more detail. I hope that doesn't bore you!
 
 I'll be using the GUI on the official website, but you can do this with code if you want ([Here](https://learn.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-app)'s the documentation). We both follow the same steps anyway (Plus, we'll still be using some code).
 
